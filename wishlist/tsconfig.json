@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "app/*": [
+        "src/app/*"
+      ],
+      "config/*": [
+        "src/config/*"
+      ],
+      "domain/*": [
+        "src/domain/*"
+      ],
+      "monitoring/*": [
+        "src/monitoring/*"
+      ],
+      "toggle/*": [
+        "src/toggle/*"
+      ],
+      "pubsub/*": [
+        "src/pubsub/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "tests/*": [
+        "src/tests/*"
+      ],
+      "mocks/*": [
+        "src/tests/mocks/*"
+      ]
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
