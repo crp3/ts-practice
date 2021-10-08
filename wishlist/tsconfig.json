@@ -10,40 +10,8 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "paths": {
-      "app/*": [
-        "src/app/*"
-      ],
-      "config/*": [
-        "src/config/*"
-      ],
-      "domain/*": [
-        "src/domain/*"
-      ],
-      "monitoring/*": [
-        "src/monitoring/*"
-      ],
-      "toggle/*": [
-        "src/toggle/*"
-      ],
-      "pubsub/*": [
-        "src/pubsub/*"
-      ],
-      "utils/*": [
-        "src/utils/*"
-      ],
-      "tests/*": [
-        "src/tests/*"
-      ],
-      "mocks/*": [
-        "src/tests/mocks/*"
-      ]
-    },
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
 }

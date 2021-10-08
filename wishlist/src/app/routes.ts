@@ -1,6 +1,6 @@
 import restify from 'restify';
 import { Router } from 'restify-router';
-import * as controllers from 'app/controllers/index';
+import * as controllers from './controllers/index';
 
 const router = new Router();
 const server = restify.createServer();

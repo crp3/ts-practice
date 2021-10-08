@@ -1,6 +1,6 @@
 import winston from 'winston';
 
-import config from 'config/index';
+import config from '../config/index';
 
 const { SERVICE, LOG_LEVEL } = config;
 

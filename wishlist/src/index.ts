@@ -1,6 +1,6 @@
-import server from 'app/routes';
-import config from 'config/index';
-import { logger }  from 'monitoring/index'
+import server from './app/routes';
+import config from './config/index';
+import { logger }  from './monitoring/index'
 
 const port = config.PORT;
 
