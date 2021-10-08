@@ -1,0 +1,40 @@
+{
+  "openapi": "3.0.1",
+  "info":{
+    "title": "Wishlist - Swagger",
+    "description": "Wishlist - Swagger",
+    "termsOfService": "http://swagger.io/terms/",
+    "version": "1.0.0"
+  },
+  "externalDocs": {
+    "description": "Simple project",
+    "url": "http://swagger.io"
+  },
+  "tags":[
+    {
+      "name": "health",
+      "description": "Check service health"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Check service health",
+        "operationId": "getHealth",
+        "responses": {
+          "200": {
+            "description": "Service is up",
+            "content": {}
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {}
+          }
+        }
+      }
+    }
+  }
+}

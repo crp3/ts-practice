@@ -3377,6 +3377,11 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
+swagger-ui-restify@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/swagger-ui-restify/-/swagger-ui-restify-3.0.8.tgz#e41b515b244991a98c945119c59a15785183389b"
+  integrity sha1-5BtRWyRJkamMlFEZxZoVeFGDOJs=
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
