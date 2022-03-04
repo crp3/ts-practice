@@ -1,0 +1,8 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "Practice of Node.js Streams",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT"
+}
