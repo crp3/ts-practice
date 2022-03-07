@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Practice of Node.js Streams",
   "main": "index.js",
-  "type": "module",
-  "license": "MIT"
+  "type": "commonjs",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "17.0.21",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
 }
